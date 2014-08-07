@@ -747,12 +747,27 @@
 /*********************************************************************************/
 
 	#three {
-		background: url('images/overlay.png'), url('../images/culture-full.png');
+		background: url('images/overlay.png'), url('../images/gni-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
+/*********************************************************************************/
+/* Four                                                                        */
+/*********************************************************************************/
+
+	#four {
+		background: url('images/overlay.png'), url('../images/culture-full.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+	
+	
+	
+	
+	
 /*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
