@@ -26,11 +26,13 @@
 
 		.box {
 			padding: 1em;
+			background: #4D4D4D;
+			color: #E6E6E6;
 		}
 
 			.box.style2 {
 				padding: 1.5em 1.25em 1.5em 1.25em;
-				background-color: rgba(255,255,255,0.9);
+				/*background-color: rgba(255,255,255,0.9);*/
 			}
 
 	/* Main */
