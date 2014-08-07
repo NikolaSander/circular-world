@@ -1,159 +1,160 @@
 <!DOCTYPE HTML>
 <!--
-	Parallelism by HTML5 UP
+	Big Picture by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
 		<title>Our Circular World | A Gallery of Our Interactive Migration Visualisations</title>
-		<meta name="viewport" content="width=1200,user-scalable=no" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Gallery of our interactive migration visualisations" />
-		<meta name="keywords" content="data visualisation, migration, flows, world, Germany, culture" />
+		<meta name="keywords" content="data visualisation, migration flows, map, flows, d3" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
-		<div id="wrapper">
+		<!-- Header -->
+			<header id="header">
 
-			<div id="main">
-				<div id="reel">
+				<!-- Logo -->
+					<h1 id="logo">Circular World</h1>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">The Global Flow of People</a></li>
+							<li><a href="#two">Internal Migration in Germany</a></li>
+							<li><a href="#three">Humanity's Cultural History</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
 
-					<!-- Header Item -->
-					
-						<div id="header" class="item" data-width="468">
-							<div class="inner">
-								<h1>Welcome to our</h1>
-								<h1 style="text-align:center">Circular World</h1>
-								<h2 style="font-size: 18pt; margin: 35px 0 0 0">A gallery of migration visualisations								</h2>
-								<h2 style="margin: 10px 0 0 0">by Nikola Sander, Ramon Bauer, Johannes Schmidt,<br />
-								Andi Pieper, Guy Abel, Elvira Stein, ...</h2>
-							</div>
-						</div>
-					
-					<!-- Thumb Items -->
-
-						<!-- 1st line -->
-							
-						<div class="item" data-width="300">
-							<a href="http://www.global-migration.info" target="_blank"><img src="images/thumbs/global-migration-black.png"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.global-migration.info" target="_blank">The Global Flow of People</a></h2>
-						</div>
-						
-						<div class="item" data-width="280">
-							<a href="http://www.sciencemag.org/content/343/6178/1520" target="_blank"><img src="images/thumbs/science-icon.png" alt="Science, Vol. 343"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.sciencemag.org/content/343/6178/1520" target="_blank">Quantifying global migration flows</a></h2>
-						</div>	
-						
-						<div class="item" data-width="300">
-							<a href="http://www.scientificamerican.com/article/immigrants-move-up-the-wealth-ladder-in-steps/" target="_blank"><img src="images/thumbs/gni-black.png" alt="Immigrants go gradually up the wealth ladder"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.scientificamerican.com/article/immigrants-move-up-the-wealth-ladder-in-steps/" target="_blank">The Not So Wretched Masses</a></h2>
-						</div>						
-
-						<div class="item" data-width="260">
-							<a href="http://witt.null2.net/wireldataviz/" target="_blank"><img src="images/thumbs/wirel-icon.png" alt="The Changing Religious Landscape of Vienna"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://witt.null2.net/wireldataviz/" target="_blank">Not circular - but on Vienna</a></h2>
-						</div>	
-						
-						<!--
-						<div class="item" data-width="260">
-							<img src="images/thumbs/wirel2-border.png" alt="">
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.nikolasander.com" target="_blank">Non-circular dataviz on Vienna</a></h2>
-						</div>
-						
-						<div class="item" data-width="300">
-							<img src="images/thumbs/wic-explorer.png" alt="">
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://http://witt.null2.net/shiny/wicsecret/" target="_blank">Wittgenstein Data Explorer</a></h2>
-						</div>	
-						-->
-						
-						<div class="item" data-width="220">
-							<a href="http://www.nikolasander.com" target="_blank"><img src="images/thumbs/nikola-icon.png" alt="Nikola's Space on the Web"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.nikolasander.com" target="_blank">Nikola's Space on the Web</a></h2>
-						</div>
-						
-						<div class="item" data-width="300">
-							<a href="http://www.german-migration.info" target="_blank"><img src="images/thumbs/germany_2010_black.png" alt="Internal Migration in Germany"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.german-migration.info" target="_blank">Internal Migration in Germany</a></h2>
-						</div>
-
-						<div class="item" data-width="260">
-							<a href="https://github.com/jo/circular-migration-plot" target="_blank"><img src="images/thumbs/download-icon.png" alt="#opencode"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="https://github.com/jo/circular-migration-plot" target="_blank">Use our d3.js library</a></h2>
-						</div>										
-
-						<div class="item" data-width="300">
-							<a href="http://www.nikolasander.com/cultural-evolution" target="_blank"><img src="images/thumbs/cultural-history.png" alt="Visualising Freebase.com"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.nikolasander.com/cultural-evolution" target="_blank">Humanity's Cultural History</a></h2>
-						</div>		
-
-						<div class="item" data-width="260">
-							<img src="images/thumbs/page-icon-grey.png" alt="VID Working Paper">
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="images/thumbs/vid-wp.pdf" target="_blank">How to create circular plots</a></h2>
-						</div>
-						
-						<div class="item" data-width="240">
-							<a href="http://null2.net" target="_blank"><img src="images/thumbs/null2.png" alt="Null2 Berlin"></a>
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://null2.net" target="_blank">Making code look beautiful</a></h2>
-						</div>								
-
-						<!--
-						<div class="item" data-width="240">
-							<img src="images/thumbs/logos.png" alt="">
-							<h2 style="position:absolute;bottom:0;left:0;right:0;background:#1a1f2c;padding:1em;font-weight:400;line-height:1em;">
-							<a href="http://www.nikolasander.com/cultural-evolution" target="_blank">Where we work</a></h2>
-						</div>	
-						-->
-
+			</header>
 			
-
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container small">
+					<header>
+						<h2>Circular World</h2>
+					</header>
+					<p><strong>Welcome to the constantly expanding world of<br> interactive circular migration plots coded with d3.js.</strong> 
+					</p>	
+					
+					<p>By <a href="http://www.nikolasander.com">Nikola Sander</a>, <a href="http://www.metropop.eu">Ramon Bauer</a>,
+					<a href="http://null2.net">Johannes Schmidt</a>, <a href="http://null2.net">Andi Pieper</a>, 
+					<a href="http://elvirastein.com/">Elvira Stein</a>, <a href="http://www.oeaw.ac.at/wic/index.php?id=50">Guy Abel</a>,
+					and friends.</p>
+					
+						
+					<footer>
+						<a href="#one" class="button style2 down">Let me in!</a>
+					</footer>
 				</div>
-			</div>
+			</section>
 		
-			
-			
-			<div id="footer">
-				<div class="left">
-					<p>An open science dissemination project on people who migrate.</p>
-
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2><a href="http://www.global-migration.info" target="_blank">The Global Flow of People</a></h2>
+					</header>
+					<p>In a paper recently published in <a href="http://www.sciencemag.org/content/343/6178/1520" target="_blank"><i>Science</i></a> <a href="http://www.global-migration.info" target="_blank">(free access here)</a> , 
+					we quantify and visualise the global flow of people for the first time. We show migration flows between 196 countries over 5-year periods since 1990.</p>
 				</div>
-				<div class="right">
-					<ul class="contact">
-						<li><a href="https://twitter.com/nikolasander" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://twitter.com/metropop_eu" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="mailto:nikola.sander@oeaw.ac.at?Subject=Circular World "target="_top" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li><a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> - 2014 Nikola Sander and colleagues.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+		
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2><a href="http://www.german-migration.info" target="_blank">Internal Migration in Germany</a></h2>
+					</header>
+					<p>Visualising data on inter-regional migration in Germany ( 
+					published in <a href="http://www.comparativepopulationstudies.de/index.php/CPoS/article/view/89/174" target="_blank">Comparative Population Studies</a>),
+					which put East-West migration into perspective and highlight a new re-urbanisation trend.</p>
 				</div>
-			</div>
+				<a href="#three" class="button style2 down anchored">Next</a>
+			</section>
+			
+		<!-- Three -->
+			<section id="three" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2><a href="http://www.nikolasander.com/cultural-evolution" target="_blank">Humanity's Cultural History</a></h2>
+					</header>
+						<p>An interactive visualisation of humanity's cultural history over two millennia. 
+						 We use data published by <a href="http://www.sciencemag.org/content/345/6196/558.short" target="_blank">Maximilian Schich and colleagues</a> to 
+						 trace the places of birth and death of notable people across space and time.</p>
+				</div>
+				 <a href="#contact" class="button style2 down anchored">Next</a>
+			</section>
+			
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Comments? Questions? Ideas for collaboration?</p>
+					</header>
+					<div class="box container small">
+					
+					<!-- Contact Form -->
+							<form method="post" action="#">
+								<div class="row half">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="email" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
 
-		</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			
+			</footer>
 
 	</body>
 </html>
