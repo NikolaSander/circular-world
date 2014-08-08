@@ -713,7 +713,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/intro.png');
+		background: url('images/overlay.png'), url('../images/intro-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -743,7 +743,7 @@
 	}
 
 /*********************************************************************************/
-/* Three                                                                        */
+/* GNI                                                                        */
 /*********************************************************************************/
 
 	#gni {
@@ -754,7 +754,7 @@
 	}
 
 /*********************************************************************************/
-/* Four                                                                        */
+/* CULTURE                                                                        */
 /*********************************************************************************/
 
 	#culture {
@@ -764,6 +764,16 @@
 		background-position: top left, center center;
 	}
 	
+/*********************************************************************************/
+/* DATASHEET                                                                        */
+/*********************************************************************************/
+
+	#datasheet {
+		background: url('images/overlay.png'), url('../images/datasheet-full.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 	
 	
 	
