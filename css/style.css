@@ -721,10 +721,10 @@
 	}
 
 /*********************************************************************************/
-/* One                                                                           */
+/* Global migration                                                                           */
 /*********************************************************************************/
 
-	#one {
+	#global {
 		background: url('images/overlay.png'), url('../images/global-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -732,10 +732,10 @@
 	}
 
 /*********************************************************************************/
-/* Two                                                                           */
+/* Germany                                                                           */
 /*********************************************************************************/
 
-	#two {
+	#germany {
 		background: url('images/overlay.png'), url('../images/germany-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -746,8 +746,8 @@
 /* Three                                                                        */
 /*********************************************************************************/
 
-	#three {
-		background: url('images/overlay.png'), url('../images/gni-full.png');
+	#gni {
+		background: url('images/overlay.png'), url('../images/gni_top20-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -757,7 +757,7 @@
 /* Four                                                                        */
 /*********************************************************************************/
 
-	#four {
+	#culture {
 		background: url('images/overlay.png'), url('../images/culture-full.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -769,7 +769,7 @@
 	
 	
 /*********************************************************************************/
-/* Work                                                                          */
+/* overview                                                                          */
 /*********************************************************************************/
 
 	#work {
